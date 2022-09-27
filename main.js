@@ -327,10 +327,11 @@ const students = [
   // Challenge 14 Code
 
   let counter14 = 0
+  dinosaurs.reverse();
 
   while (counter14 < dinosaurs.length)
   {
-    console.log(dinosaurs.reverse()[counter14]);
+    console.log(dinosaurs[counter14]);
     counter14++;
   }
 
