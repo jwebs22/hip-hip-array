@@ -137,14 +137,14 @@ const students = [
   
   // Challenge 6 Code
 
-  fibonacciNumbers.unshift("0");
-  fibonacciNumbers.push("21", "34");
+  fibonacciNumbers.unshift(0);
+  fibonacciNumbers.push(21, 34);
 
   let counter6 = 0;
 
   while (counter6 < fibonacciNumbers.length)
   {
-    console.log(fibonacciNumbers [counter6]);
+    console.log(fibonacciNumbers[counter6]);
     counter6++;
   }
 
@@ -215,7 +215,7 @@ const students = [
     counter9++;
     }
   
-  
+  //inclass review: could have set index = 3
 
 
 
