@@ -47,7 +47,7 @@ const students = [
   //Challenge 2 Code
  
   let counter2 = 0;
-  let cheatByReassigningAConstantMaybe = grades.reverse();
+  grades.reverse()
 
   while (counter2 < grades.length)
   {
