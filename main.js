@@ -26,12 +26,12 @@ const students = [
   ];
   // Challenge 1 Code
 
-  let i = 0;
+  let counter1 = 0;
 
-  while (i < students.length)
+  while (counter1 < students.length)
   {
-    console.log(students[i]);
-    i++;
+    console.log(students[counter1]);
+    counter1++;
   }
 
 
@@ -46,13 +46,13 @@ const students = [
   
   //Challenge 2 Code
  
-  let counter = 0;
+  let counter2 = 0;
   let cheatByReassigningAConstantMaybe = grades.reverse();
 
-  while (counter < grades.length)
+  while (counter2 < grades.length)
   {
-    console.log(grades[counter]);
-    counter++;
+    console.log(grades[counter2]);
+    counter2++;
   }
 
 
